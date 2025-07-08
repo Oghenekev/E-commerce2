@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Thsi is the navigation bar -->
+     <header id="header">
+   <nav>
+    <img src="logo.svg" alt="">
+    <ul class="menu-box">
+        <li><a href="">Home</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Shop Now</a></li>
+        <li><a href="">Sign up</a></li>
+    </ul>
+
+    <div class="icon" id="icon-laptop">
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+
+    <i class="fa-solid fa-bars" id="menu"></i>
+      </nav>
+    </header>
+   <!-- End of navigation bar -->
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" id="pagination"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" id="pagination"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" id="pagination"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active postion-relative">
+      <img src="Untitled design (28).jpg" class="d-block w-100 darkened-img" alt="..."id="background-1">
+      <div class="text-center">
+        <h1>Welcome to Antique Fitness</h1>
+        <p>Welcome to a place where strenght stands the test of time, where legends aren't born but built. Welcome to the Iron Age.</p>
+        <a href=""   id="view">Veiw Collection</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Untitled design (30).jpg" class="d-block w-100 darkened-img" alt="...">
+       <div class="text-center">
+        <h1>Improve your health Today</h1>
+        <p>At Antique Fitness, we provide the gear you need to move better, feel stronger, and live healthier. Start your journey today.</p>
+        <a href=""   id="view">Read more</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="background123.jpg" class="d-block w-100 darkened-img" alt="...">
+      <div class="text-center">
+        <h1>Trusted by Lifters Everywhere</h1>
+        <p>"Best gear I’ve ever used." - Michael, Pro Trainer<br>"Feels like it was forged for legends." - Ada, Powerlifter</p>
+        <a href="#" id="view">See Reviews</a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Start of second page -->
+<div class="container">
+  <div class="row">
+    
+    <!-- Card 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="Untitled design (7).jpg" class="card-img-top" alt="Essentials Dumbbells">
+        <div class="card-body">
+          <h5 class="product-title">Essentials Dumbbells</h5>
+          <p class="product-description">Durable, high-quality dumbbells for home and commercial workouts.</p>
+          <p class="product-price">$89.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="gloves.jpg" class="card-img-top" alt="Gym Gloves">
+        <div class="card-body">
+          <h5 class="product-title">Gym Gloves</h5>
+          <p class="product-description">Durable gym gloves for an effective workout.</p>
+          <p class="product-price">$12.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="weightbelt.jpg" class="card-img-top" alt="Hex Essential Barbell">
+        <div class="card-body">
+          <h5 class="product-title">Weight Strap</h5>
+          <p class="product-description">Durable, high-quality weight strap for home and commercial workouts.</p>
+          <p class="product-price">$29.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    
+    <!-- Card 4 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="treadmill.jpg" class="card-img-top" alt="Essentials Dumbbells">
+        <div class="card-body">
+          <h5 class="product-title">Treadmill</h5>
+          <p class="product-description">Smooth, cushioned workouts with adjustable speed — perfect for home cardio.</p>
+          <p class="product-price">$89.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="jumprope.jpg" class="card-img-top" alt="Gym Gloves">
+        <div class="card-body">
+          <h5 class="product-title">Jumprope</h5>
+          <p class="product-description">Lightweight, durable, and perfect for fast, effective cardio anywhere.</p>
+          <p class="product-price">$12.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="Untitled design (16).jpg" class="card-img-top" alt="Hex Essential Barbell">
+        <div class="card-body">
+          <h5 class="product-title">Barbell pad</h5>
+          <p class="product-description">Durable, high-quality barbell padfor home and commercial workouts.</p>
+          <p class="product-price">$89.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    
+    <!-- Card 7 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="Untitled design (9).jpg" class="card-img-top" alt="Essentials Dumbbells">
+        <div class="card-body">
+          <h5 class="product-title">Black male compression shirt</h5>
+          <p class="product-description">Train in style with our black short sleeve gym shirt</p>
+          <p class="product-price">$9.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 8 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="Untitled design (10).jpg" class="card-img-top" alt="Gym Gloves">
+        <div class="card-body">
+          <h5 class="product-title">White compression shirt</h5>
+          <p class="product-description">Stay dry and focused with this white long sleeve shirt</p>
+          <p class="product-price">$12.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 9 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="Untitled design (11).jpg" class="card-img-top" alt="Hex Essential Barbell">
+        <div class="card-body">
+          <h5 class="product-title">Female round neck gymshirt</h5>
+          <p class="product-description">Comfort meets style with our classic round neck gym shirt</p>
+          <p class="product-price">$6.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    
+    <!-- Card 10 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="Untitled design (12).jpg" class="card-img-top" alt="Essentials Dumbbells">
+        <div class="card-body">
+          <h5 class="product-title">Female sleeveless shirt</h5>
+          <p class="product-description">Stay cool and confident in our breathable sleeveless shirt</p>
+          <p class="product-price">$4.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 11 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="Untitled design (13).jpg" class="card-img-top" alt="Gym Gloves">
+        <div class="card-body">
+          <h5 class="product-title">White sports bra</h5>
+          <p class="product-description">Breathable sports bra for confident workouts</p>
+          <p class="product-price">$5.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 12 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="Untitled design (14).jpg" class="card-img-top" alt="Hex Essential Barbell">
+        <div class="card-body">
+          <h5 class="product-title">Brown Sports bra</h5>
+          <p class="product-description">Sleek brown sports bra built for comfort and all day support</p>
+          <p class="product-price">$6.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    
+    <!-- Card 13 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="Untitled design (15).jpg" class="card-img-top" alt="Essentials Dumbbells">
+        <div class="card-body">
+          <h5 class="product-title">Workout headband</h5>
+          <p class="product-description">Lightweight headband Keeps sweat away and hair in place</p>
+          <p class="product-price">$2.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 14 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="headband.jpg" class="card-img-top" alt="Gym Gloves">
+        <div class="card-body">
+          <h5 class="product-title">Workout headband</h5>
+          <p class="product-description">Comfortable headband for dry, distraction-free workouts.</p>
+          <p class="product-price">$2.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 15 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="1.jpg" class="card-img-top" alt="Hex Essential Barbell">
+        <div class="card-body">
+          <h5 class="product-title">White vest</h5>
+          <p class="product-description">Lightweight white vest designed for cool, flexible movement</p>
+          <p class="product-price">$7.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    
+    <!-- Card 16 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="2.jpg" class="card-img-top" alt="Essentials Dumbbells">
+        <div class="card-body">
+          <h5 class="product-title">Black vest</h5>
+          <p class="product-description">Breathable black vest for comfort and easy movement</p>
+          <p class="product-price">$7.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 17 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="3.jpg" class="card-img-top" alt="Gym Gloves">
+        <div class="card-body">
+          <h5 class="product-title">Gym shorts</h5>
+          <p class="product-description">Flexible gym shorts made for movement and all-day comfort</p>
+          <p class="product-price">$12.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 18 -->
+    <div class="col-md-4 mb-4">
+      <div class="card product-card">
+        <img src="4.jpg" class="card-img-top" alt="Hex Essential Barbell">
+        <div class="card-body">
+          <h5 class="product-title">Black Long-sleeve shirt</h5>
+          <p class="product-description">Black Long-sleeve compression shirt for muscle support and sweat control.</p>
+          <p class="product-price">$89.99</p>
+          <a href="#" class="btn btn-dark add-to-cart-btn">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container">
+       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" id="pagination"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" id="pagination"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" id="pagination"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active postion-relative">
+      <img src="back1.jpg" class="d-block w-100 darkened-img" alt="..."id="background-1">
+      <div class="text-center">
+        <h1>Register for our Gym online</h1>
+        <p>We would also bring to our lovely cutomers that we also have a gym you could register online.</p>
+        <a href=""   id="view">Register now</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="back2.jpg" class="d-block w-100 darkened-img" alt="...">
+       <div class="text-center">
+        <h1>Extra Curriculars</h1>
+        <p>We also have weight classes, yoga for calming the mind and games visit our gym now !!!</p>
+        <a href=""   id="view">Join now</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Untitled design (8).jpg" class="d-block w-100 darkened-img" alt="...">
+      <div class="text-center">
+        <h1>Thanks for shopping</h1>
+        <p>We hope to see you again</p>
+        <!-- <a href="#" id="view"></a> -->
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+
+<footer class="footer">
+  <div class="box">
+    <div class="box-2">
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="">About us</a></li>
+          <li><a href="">our service</a></li>
+          <li><a href="">privacy policy</a></li>
+          <li><a href="">affiliate program</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Get help</h4>
+        <ul>
+          <li><a href="">FAQ's</a></li>
+          <li><a href="">Shipping</a></li>
+          <li><a href="">Returns</a></li>
+          <li><a href="">order status</a></li>
+          <li><a href="">Payment options</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Online store</h4>
+        <ul>
+          <li><a href="">Gym Equipment</a></li>
+          <li><a href="">Shirts</a></li>
+          <li><a href="">Shoes</a></li>
+          <li><a href="">Bags</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow us</h4>
+        <div class="social-links">
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+
+</script>
+<script src="script.js">
+  
+</script>
+
+
+
+
+</body>
+</html>
