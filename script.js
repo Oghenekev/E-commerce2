@@ -13,7 +13,7 @@ function validation() {
     if (document.formFill.Username.value == "") {
         result.innerHTML = "Enter Username";
         return false;
-    } else if (document.formFill.Username.value.length ) {
+    } else if (document.formFill.Username.value.length <6) {
         result.innerHTML = "Username must be at least 8 characters";
         return false;
     } else if (document.formFill.Email.value == "") {
